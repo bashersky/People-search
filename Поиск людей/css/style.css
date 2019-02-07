@@ -1,0 +1,232 @@
+body{
+  background:#FBFAFF;
+  width: 100%;
+}
+.head{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  position: absolute;
+background: #FBFAFF;
+height: 440px;
+width: 100%;
+}
+.zagolovok{
+  position: absolute;
+width: 690px;
+height: 123px;
+left: 29%;
+top: 120px;
+}
+input{
+height: 50px;
+width: 500px;
+border: none;
+padding: 0;
+color: rgba(0,0,0,.87);
+word-wrap: break-word;
+outline: none;
+display: flex;
+flex: 100%;
+-webkit-tap-highlight-color: transparent;
+margin-top: 100px;
+margin-left: 100px;
+position: absolute;
+border-radius: 10px;
+}
+.search{
+  position: absolute;
+  background: #fff;
+width: 870px;
+height: 60px;
+box-shadow: 0px 0px 8px rgba(52, 68, 103, 0.15);
+border-radius: 100px;
+margin-top: 0px;
+    margin-left: 0px;
+    font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+text-transform: capitalize;
+color: #344467;
+padding-left: 60px;
+
+}
+.knopka{
+  position: absolute;
+top: 16px;
+left: 850px;
+padding-left: 0px;
+padding-right: 0px;
+
+}
+.knopka1{
+  position: absolute;
+}
+.knopka2{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+button{
+  background: url(Search .png) ;
+}
+
+.result{
+  position: relative;
+  width: 966px;
+
+
+
+
+}
+.serch{
+  position: absolute;
+  width: 930px;
+  height: 60px;
+  left: 20%;
+    right: 20%;
+    top: 343px;
+
+
+}
+.h1{
+  position: absolute;
+  left: 164px;
+font-family: Comfortaa;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 36px;
+
+text-transform: capitalize;
+
+color: #344467;
+}
+.vk{
+  position: absolute;
+      left: 290px;
+  right: 164px;
+  font-family: Comfortaa;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 36px;
+text-align: center;
+text-transform: capitalize;
+
+color: #F13162;
+
+}
+p{
+  position: absolute;
+  top: 75px;
+  font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+text-align: center;
+font-size: 18px;
+
+
+color: #344467;
+}
+.main{
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 400px;
+}
+.profil{
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 36px;
+  width: 286px;
+height: 244px;
+  background: #fff;
+  box-shadow: 0px 0px 8px rgba(52, 68, 103, 0.2);
+border-radius: 10px;
+}
+.name{
+
+      text-align: center;
+      margin-top: 15px;
+
+
+
+}
+
+.icon{
+  width: 150px;
+  height: 150px;
+  margin-left: 68px;
+  margin-right: 68px;
+  margin-top: 30px;
+  border-radius: 70px;
+  border-radius: 70px;
+    }
+    a{
+      text-decoration: none;
+    }
+.onlain{
+position: absolute;
+left: 191px;
+    top: 145px;
+  width: 15px;
+  height: 15px;
+  background: #27AE60;
+  border: 3px solid #FFFFFF;
+  border-radius: 15px;
+}
+h4{
+  font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+text-align: center;
+text-transform: capitalize;
+
+color: #344467;
+}
+.img{
+  position: absolute;
+      margin-left: 0px;
+}
+.kon{
+  position: relative;
+  margin: auto;
+
+}
+.kon1{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 36px;
+
+  text-transform: capitalize;
+
+  color: #344467;
+}
+.kon2{
+  position: absolute;
+  text-align: center;
+  left: 80px;
+  width: 800px;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 36px;
+
+  text-transform: capitalize;
+
+  color: #344467;
+}

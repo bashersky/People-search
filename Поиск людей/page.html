@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-enquv="Content-Type" content="text/html"; charset="utf-8">
+  <title>Поиск людей Вконтакте</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style2.css"  />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+</head>
+<body>
+  <div>
+  <div class="head">
+<h1 class="h1">Поиск</h1><h1 class="vk">Вконтакте</h1>
+
+  </div>
+  <div class="content">
+
+<div class="Group1" onclick="location.href='index.html'">
+<div class="Arrow_Simple_left">
+
+<img class="button" src="css/Shape2.png">
+
+</div>
+  </div>
+
+  <div class="avatar">
+    <div class="img">
+      <img class="icon" id="photo" src="css/nazt0mPHmwk.png"/ >
+    <div class="onlain" id="onlain"></div>
+  </div>
+  </div>
+  <div class="Group2">
+
+<h4 class="name" id="first_name">Донцов</h4>
+<h4 class="name" id="last_name">Ярослав</h4>
+
+<a id="vkpage">
+<div class="vk2"><h4 class="next">Страница ВК</h4></div>
+</a>
+  </div>
+</div>
+<script>
+loadinfo();
+function loadinfo(){
+  var profilInfo = JSON.parse(localStorage.getItem("UserProfil"));
+  var info;
+
+  info = document.getElementById('first_name');
+  info.innerHTML = profilInfo.first_name;
+
+  info = document.getElementById('last_name');
+  info.innerHTML = profilInfo.last_name;
+
+  info = document.getElementById('photo');
+  info.src = profilInfo.photo_200;
+
+  info = document.getElementById('vkpage');
+  info.href = "https://vk.com/id"+profilInfo.id;
+
+  info = document.getElementById('onlain');
+  if(profilInfo.online == 0){
+  info.className = "";
+  }
+}
+</script>
+</body>
+</html>
